@@ -1,0 +1,436 @@
+{
+    "common": {
+        "2": {
+            "name": "Mandrake Root",
+            "rules": ""
+        },
+        "3": {
+            "name": "Quicksilver Lichen",
+            "rules": ""
+        },
+        "4": {
+            "name": "Quicksilver Lichen",
+            "rules": ""
+        },
+        "5": {
+            "name": "Wild Sageroot",
+            "rules": ""
+        },
+        "6": {
+            "name": "Wild Sageroot",
+            "rules": ""
+        },
+        "7": {
+            "name": "Bloodgrass",
+            "rules": "reroll"
+        },
+        "8": {
+            "name": "Wyrmtongue Petals",
+            "rules": ""
+        },
+        "9": {
+            "name": "Wyrmtongue Petals",
+            "rules": ""
+        },
+        "10": {
+            "name": "Milkweed Seeds",
+            "rules": ""
+        },
+        "11": {
+            "name": "Milkweed Seeds",
+            "rules": ""
+        },
+        "12": {
+            "name": "Mandrake Root",
+            "rules": ""
+        } 
+    },
+    "arctic": {
+        "2": {
+            "name": "Silver Hibiscus",
+            "rules": ""
+        },
+        "3": {
+            "name": "Mortflesh Powder",
+            "rules": ""
+        },
+        "4": {
+            "name": "Ironwood Heart",
+            "rules": ""
+        },
+        "5": {
+            "name": "Frozen Seedlings",
+            "rules": "2x"
+        },
+        "9": {
+            "name": "Arctic Creeper",
+            "rules": "2x"
+        },
+        "10": {
+            "name": "Fennel Silk",
+            "rules": ""
+        },
+        "11": {
+            "name": "Fiend's Ivy",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Voidroot",
+            "rules": ""
+        }
+    },
+    "coastal": {
+        "2": {
+            "name": "Hydrathistle",
+            "rules": "1-2x"
+        },
+        "3": {
+            "name": "Amanita cap",
+            "rules": ""
+        },
+        "4": {
+            "name": "Hyancinth Nectar",
+            "rules": ""
+        },
+        "5": {
+            "name": "Chromus Slime",
+            "rules": "1-2x"
+        },
+        "9": {
+            "name": "Lavender Sprig",
+            "rules": ""
+        },
+        "10": {
+            "name": "Blue Toadshade",
+            "rules": ""
+        },
+        "11": {
+            "name": "Wrackwort Bulbs",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Cosmos Glond",
+            "rules": "1-2x"
+        } 
+    },
+    "underwater": {
+        "2": {
+            "name": "Hydrathistle",
+            "rules": "1-2x"
+        },
+        "3": {
+            "name": "Amanita cap",
+            "rules": "reroll"
+        },
+        "4": {
+            "name": "Hyancinth Nectar",
+            "rules": ""
+        },
+        "5": {
+            "name": "Chromus Slime",
+            "rules": "1-2x"
+        },
+        "9": {
+            "name": "Lavender Sprig",
+            "rules": "reroll"
+        },
+        "10": {
+            "name": "Blue Toadshade",
+            "rules": "reroll"
+        },
+        "11": {
+            "name": "Wrackwort Bulbs",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Cosmos Glond",
+            "rules": "1-2x"
+        } 
+    },
+    "desert": {
+        "2": {
+            "name": "Cosmos Glond",
+            "rules": ""
+        },
+        "3": {
+            "name": "Arrow Root",
+            "rules": ""
+        },
+        "4": {
+            "name": "Dried Ephedra",
+            "rules": ""
+        },
+        "5": {
+            "name": "Cactus Juice",
+            "rules": "2x"
+        },
+        "9": {
+            "name": "Drakus Flower",
+            "rules": ""
+        },
+        "10": {
+            "name": "Scillia Beans",
+            "rules": ""
+        },
+        "11": {
+            "name": "Spineflower Berries",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Voidroot",
+            "rules": "elem_water"
+        } 
+    },
+    "forest": {
+        "2": {
+            "name": "Harrada Leaf",
+            "rules": ""
+        },
+        "3": {
+            "name": "Nightshade Berries",
+            "rules": ""
+        },
+        "4": {
+            "name": "Emetic Wax",
+            "rules": ""
+        },
+        "5": {
+            "name": "Verdant Nettle",
+            "rules": ""
+        },
+        "9": {
+            "name": "Arrow Root",
+            "rules": ""
+        },
+        "10": {
+            "name": "Ironwood Heart",
+            "rules": ""
+        },
+        "11": {
+            "name": "Blue Toadshade",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Wisp Stalks",
+            "rules": "night_2x"
+        } 
+    },
+    "grasslands": {
+        "2": {
+            "name": "Harrada Leaf",
+            "rules": ""
+        },
+        "3": {
+            "name": "Drakus Flower",
+            "rules": ""
+        },
+        "4": {
+            "name": "Lavender Sprig",
+            "rules": "2x"
+        },
+        "5": {
+            "name": "Arrow Root",
+            "rules": ""
+        },
+        "9": {
+            "name": "Scillia Beans",
+            "rules": "2x"
+        },
+        "10": {
+            "name": "Cactus Juice",
+            "rules": ""
+        },
+        "11": {
+            "name": "Tail Leaf",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Hyancinth Nectar",
+            "rules": ""
+        }
+    },
+    "hills": {
+        "2": {
+            "name": "Devil's Bloodleaf",
+            "rules": ""
+        },
+        "3": {
+            "name": "Nightshade Berries",
+            "rules": ""
+        },
+        "4": {
+            "name": "Tail Leaf",
+            "rules": "2x"
+        },
+        "5": {
+            "name": "Lavender Sprig",
+            "rules": ""
+        },
+        "9": {
+            "name": "Ironwood Heart",
+            "rules": ""
+        },
+        "10": {
+            "name": "Gengko Bush",
+            "rules": ""
+        },
+        "11": {
+            "name": "Rock Vine",
+            "rules": "2x"
+        },
+        "12":  {
+            "name": "Harrada Leaf",
+            "rules": ""
+        }
+    },
+    "mountain": {
+        "2": {
+            "name": "Basilisk's Breath",
+            "rules": ""
+        },
+        "3": {
+            "name": "Frozen Seedlings",
+            "rules": "2x"
+        },
+        "4": {
+            "name": "Arctic Creeper",
+            "rules": "2x"
+        },
+        "5": {
+            "name": "Dried Ephedra",
+            "rules": ""
+        },
+        "9": {
+            "name": "Drakus Flower",
+            "rules": ""
+        },
+        "10": {
+            "name": "Luminous Cap dust",
+            "rules": ""
+        },
+        "11": {
+            "name": "Rock Vine",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Primordial Balm",
+            "rules": ""
+        }
+    },
+    "cave": {
+        "2": {
+            "name": "Basilisk's Breath",
+            "rules": ""
+        },
+        "3": {
+            "name": "Frozen Seedlings",
+            "rules": "2x"
+        },
+        "4": {
+            "name": "Arctic Creeper",
+            "rules": "2x"
+        },
+        "5": {
+            "name": "Dried Ephedra",
+            "rules": ""
+        },
+        "9": {
+            "name": "Drakus Flower",
+            "rules": ""
+        },
+        "10": {
+            "name": "Luminous Cap dust",
+            "rules": "2x"
+        },
+        "11": {
+            "name": "Rock Vine",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Primordial Balm",
+            "rules": ""
+        }
+    },
+    "swamp": {
+        "2": {
+            "name": "Devil's Bloodleaf",
+            "rules": ""
+        },
+        "3": {
+            "name": "Spineflower Berries",
+            "rules": ""
+        },
+        "4": {
+            "name": "Emetic Wax",
+            "rules": ""
+        },
+        "5": {
+            "name": "Amanita Cap",
+            "rules": "2x"
+        },
+        "9": {
+            "name": "Blue Toadshade",
+            "rules": "2x"
+        },
+        "10": {
+            "name": "Wrackwort Bulb",
+            "rules": ""
+        },
+        "11": {
+            "name": "Hydrathistle",
+            "rules": "rain_2x"
+        },
+        "12":  {
+            "name": "Primordial Balm",
+            "rules": ""
+        }
+    },
+    "underdark": {
+        "2": {
+            "name": "Primordial Balm",
+            "rules": "2x"
+        },
+        "3": {
+            "name": "Silver Hibiscus",
+            "rules": ""
+        },
+        "4": {
+            "name": "Devil's Bloodleaf",
+            "rules": ""
+        },
+        "5": {
+            "name": "Chromus Slime",
+            "rules": ""
+        },
+        "6": {
+            "name": "Mortflesh Powder",
+            "rules": "2x"
+        },
+        "7": {
+            "name": "Fennel Silk",
+            "rules": ""
+        },
+        "8": {
+            "name": "Fiend's Ivy",
+            "rules": ""
+        },
+        "9": {
+            "name": "Gengko Brush",
+            "rules": ""
+        },
+        "10": {
+            "name": "Luminous Cap Dust",
+            "rules": ""
+        },
+        "11": {
+            "name": "Radiant Synthseed",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Wisp Stalks",
+            "rules": ""
+        }
+    }
+}
+
+    
