@@ -1,0 +1,296 @@
+{
+    "Bloodgrass": {
+        "type": "Potion",
+        "rarity": "Common",
+        "dc": 0,
+        "terrain": "Most Terrain",
+        "details": "**Special (Potion Effect):** Can combine with any other **Potion Effect** ingredient to become a food source for 1 day. Cannot be altered by other ingredients."
+    },
+    "Chromus Slime": {
+        "type": "Potion & Toxin Modifier",
+        "rarity": "Rare",
+        "dc": 4,
+        "terrain": "Coastal & Underdark",
+        "details": "**Special (Potion & Toxin Modifier):** The final **Effect** after all other calculations is the exact opposite. This is up to the DM’s discretion on the specifics per potion/poison."
+    },
+    "Dried Ephedra": {
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "dc": 2,
+        "terrain": "Desert & Mountain",
+        "details": "**Potion Modifier:** Increase the dice-type by 1 size for any healing **Effect.**"
+    },
+    "Emetic Wax": {
+        "type": "Potion & Toxin Modifier",
+        "rarity": "Common",
+        "dc": 1,
+        "terrain": "Arctic & Underdark",
+        "details": "**Special (Potion & Toxin Modifier):** Delay the **Effect** of an ingredient this was combined with by 1d6 rounds."
+    },
+    "Fennel Silk": {
+        "type": "Potion",
+        "rarity": "Common",
+        "dc": 2,
+        "terrain": "Arctic & Underdark",
+        "details": "**Potion Effect:** Stabilizes body heat to resist cold weather or wet condition penalties for 1 hour. Cannot be altered by other ingredients."
+    },
+    "Gengko Brush": {
+        "type": "Potion",
+        "rarity": "Uncommon",
+        "dc": 2,
+        "terrain": "Hills & Underdark",
+        "details": "**Potion Modifier:** Double the dice rolled of any healing **Effect**, but divide the total of the dice by 2 (rounding down); Then, the recipient receives that amount of healing per round for 2 rounds."
+    },
+    "Hyancinth Nectar": {
+        "type": "Potion",
+        "rarity": "Common",
+        "dc": 1,
+        "terrain": "Coastal & Grasslands",
+        "details": "**Potion Effect:** Removes 1d6 rounds of poison in the target’s system, but cannot remove it completely. One round of poison damage will still occur at minimum."
+    },
+    "Lavender Sprig": {
+        "type": "Potion & Toxin Modifier",
+        "rarity": "Common",
+        "dc": -2,
+        "terrain": "Coastal, Grasslands & Hills",
+        "details": "**Special (Potion & Toxin Modifier):** Makes the potion or toxin more stable and safer to craft."
+    },
+    "Mandrake Root": {
+        "type": "Potion",
+        "rarity": "Common",
+        "dc": 0,
+        "terrain": "Most Terrain",
+        "details": "**Potion Effect:** Reduce any disease or poison’s potency by half for 2d12 hours. Only hinders already existing poisons or diseases in the body. Cannot be altered by other ingredients."
+    },
+    "Milkweed Seeds": {
+        "type": "Potion",
+        "rarity": "Common",
+        "dc": 2,
+        "terrain": "Most Terrain",
+        "details": "**Potion Modifier:** Double the dice rolled of any healing **Effect**, but remove all Alchemy Modifier bonuses. This modifier can stack."
+    },
+    "Wild Sageroot": {
+        "type": "Potion",
+        "rarity": "Common",
+        "dc": 0,
+        "terrain": "Most Terrain",
+        "details": "**Potion Effect:** Heals for 2d4 + Alchemy Modifier."
+    },
+    "Arctic Creeper": {
+        "type": "Poison",
+        "rarity": "Common",
+        "dc": 2,
+        "terrain": "Arctic & Mountain",
+        "details": "**Toxin Modifier:** Change poison damage to cold or necrotic damage; target is still *[poisoned]* for 1 minute on a failed CON saving throw; this toxin is still considered poison damage when combining with other ingredients."
+    },
+    "Amanita Cap": {
+        "type": "Poison",
+        "rarity": "Common",
+        "dc": 1,
+        "terrain": "Coastal & Swamp",
+        "details": "**Toxin Modifier:** Changes any poison **Effect** to be non-lethal and only incapacitate the target."
+    },
+    "Basilisk Breath": {
+        "type": "Poison",
+        "rarity": "Very Rare",
+        "dc": 5,
+        "terrain": "Mountain",
+        "details": "**Special (Toxin Effect):** Slowly paralyzes opponent. Target makes a DC 5 + *Alchemy Modifier* CON saving throw each turn for 4 turns. While under this affect, target is considered slowed by the slow spell. On a failed save, the target is considered *[paralyzed]* for 4 rounds. Cannot be modified or altered by other ingredients."
+    },
+    "Cactus Juice": {
+        "type": "Poison",
+        "rarity": "Common",
+        "dc": 2,
+        "terrain": "Desert & Grasslands",
+        "details": "**Toxin Modifier:** The target will not notice any poison damage **Effect** in their system until they take 5 rounds of damage from the toxin."
+    },
+    "Drakus Flower": {
+        "type": "Poison",
+        "rarity": "Common",
+        "dc": 2,
+        "terrain": "Desert, Grasslands & Mountain",
+        "details": "**Toxin Modifier:** Change poison damage to fire or acid damage; target is still *[poisoned]* for 1 minute on a failed CON saving throw; this toxin is still considered poison damage when combining with other ingredients."
+    },
+    "Frozen Seedlings": {
+        "type": "Poison",
+        "rarity": "Rare",
+        "dc": 4,
+        "terrain": "Arctic & Mountain",
+        "details": "**Toxin Modifier:** While *[poisoned],* target’s movement speed is reduced by 10 ft for 1 minute. Cannot be altered by other ingredients."
+    },
+    "Harrada Leaf": {
+        "type": "Poison",
+        "rarity": "Common",
+        "dc": 1,
+        "terrain": "Forest",
+        "details": "**Toxin Modifier:** While *[poisoned],* target’s movement speed is reduced by 10 ft for 1 minute. Cannot be altered by other ingredients."
+    },
+    "Quicksilver Lichen": {
+        "type": "Poison",
+        "rarity": "Common",
+        "dc": 3,
+        "terrain": "Most Terrain",
+        "details": "**Toxin Modifier:** Double the dice rolled of any **Toxin Effect,** but reduce that **Effect** duration by half. This modifier can stack."
+    },
+    "Radiant Synthseed": {
+        "type": "Poison",
+        "rarity": "Uncommon",
+        "dc": 2,
+        "terrain": "Underdark",
+        "details": "**Toxin Modifier:** Change poison damage to radiant damage; target is still *[poisoned]* for 1 minute on a failed CON saving throw; this toxin is still considered poison damage when combining with other ingredients."
+    },
+    "Spineflower Berries": {
+        "type": "Poison",
+        "rarity": "Rare",
+        "dc": 3,
+        "terrain": "Desert & Swamp",
+        "details": "**Toxin Modifier:** Increase the dice-type by 1 size for any **Toxin Effect.**"
+    },
+    "Wyrmtongue Petals": {
+        "type": "Poison",
+        "rarity": "Uncommon",
+        "dc": 3,
+        "terrain": "Most Terrain",
+        "details": "**Toxin Effect:** 1d4 + Alchemy Modifier poison damage per round; target is *[poisoned]* for 1 minute."
+    },
+    "Arrow Root": {
+        "type": "Enchantment",
+        "rarity": "Uncommon",
+        "dc": 2,
+        "terrain": "Desert, Forest & Grasslands",
+        "details": "**Enchantment:** +1 to attack rolls for one minute when applied to a weapon."
+    },
+    "Blue Toadshade": {
+        "type": "Enchantment",
+        "rarity": "Rare",
+        "dc": 3,
+        "terrain": "Coastal, Forest & Swamp",
+        "details": "**Enchantment:** User creates a *potion* of *gaseous form* (DMG 187)."
+    },
+    "Cosmos Glond": {
+        "type": "Enchantment",
+        "rarity": "Rare",
+        "dc": 3,
+        "terrain": "Coastal & Desert",
+        "details": "**Enchantment:** User creates a *potion* of *clairvoyance* (DMG 187)."
+    },
+    "Devil’s Bloodleaf": {
+        "type": "Enchantment",
+        "rarity": "Very Rare",
+        "dc": 5,
+        "terrain": "Hills, Swamp & Underdark",
+        "details": "**Enchantment:** User creates a *potion* of *vitality* (DMG 188)."
+    },
+    "Elemental Water": {
+        "type": "Enchantment",
+        "rarity": "Rare",
+        "dc": 3,
+        "terrain": "Special",
+        "details": "**Special (Enchantment):** This is required as the base catalyst for all **Enchantment** ingredients. See **Appendix B** for details."
+    },
+    "Fiend’s Ivy": {
+        "type": "Enchantment",
+        "rarity": "Rare",
+        "dc": 4,
+        "terrain": "Arctic & Underdark ",
+        "details": "**Enchantment:** User creates a *potion* of *mind reading* (DMG 188)."
+    },
+    "Hydrathistle": {
+        "type": "Enchantment",
+        "rarity": "Uncommon",
+        "dc": 2,
+        "terrain": "Coastal & Swamp",
+        "details": "**Enchantment:** User creates a *potion* of *water breathing* (DMG 188)."
+    },
+    "Ironwood Heart": {
+        "type": "Enchantment",
+        "rarity": "Uncommon",
+        "dc": 3,
+        "terrain": "Arctic, Forest & Hills",
+        "details": "**Enchantment:** User creates a *potion* of *growth* (DMG 187)."
+    },
+    "Luminous Cap Dust": {
+        "type": "Enchantment",
+        "rarity": "Rare",
+        "dc": 4,
+        "terrain": "Mountain & Underdark",
+        "details": "**Enchantment:** User creates a *potion* of *heroism* (DMG 188)."
+    },
+    "Mortflesh Powder": {
+        "type": "Enchantment",
+        "rarity": "Very Rare",
+        "dc": 5,
+        "terrain": "Arctic & Underdark",
+        "details": "**Enchantment:** User creates a *potion* of *longevity* (DMG 188)."
+    },
+    "Nightshade Berries": {
+        "type": "Enchantment",
+        "rarity": "Uncommon",
+        "dc": 3,
+        "terrain": "Forest & Hills",
+        "details": "**Enchantment:** The effect of this “potion” is similar to the *oil of slipperiness* (DMG 184)."
+    },
+    "Primordial Balm": {
+        "type": "Enchantment",
+        "rarity": "Rare",
+        "dc": 4,
+        "terrain": "Mountain, Swamp & Underdark",
+        "details": "**Enchantment:** User creates a *potion* of *frost/fire/stone giant strength* (DMG 187)."
+    },
+    "Rock Vine": {
+        "type": "Enchantment",
+        "rarity": "Rare",
+        "dc": 4,
+        "terrain": "Hills & Mountain",
+        "details": "**Enchantment:** User creates a *potion* of *invulnerability* (DMG 188)."
+    },
+    "Scillia Beans": {
+        "type": "Enchantment",
+        "rarity": "Common",
+        "dc": 1,
+        "terrain": "Desert & Grasslands",
+        "details": "**Enchantment:** User creates a *potion* of *climbing* (DMG 187)."
+    },
+    "Silver Hibiscus": {
+        "type": "Enchantment",
+        "rarity": "Rare",
+        "dc": 4,
+        "terrain": "Arctic & Underdark",
+        "details": "**Enchantment:** When consumed by target, they can unleash a random elemental *breathe weapon* 3 times (PHB 34). Cannot be altered by other ingredients."
+    },
+    "Tail Leaf": {
+        "type": "Enchantment",
+        "rarity": "Very Rare",
+        "dc": 5,
+        "terrain": "Grasslands & Hills",
+        "details": "**Enchantment:** User creates a *potion* of *speed* (DMG 188)."
+    },
+    "Verdant Nettle": {
+        "type": "Enchantment",
+        "rarity": "Uncommon",
+        "dc": 2,
+        "terrain": "Forest",
+        "details": "**Enchantment:** User creates a *potion* of *animal friendship* (DMG 187)."
+    },
+    "Voidroot": {
+        "type": "Enchantment",
+        "rarity": "Very Rare",
+        "dc": 5,
+        "terrain": "Arctic & Desert",
+        "details": "**Enchantment:** User creates a *potion* of *flying* (DMG 187)."
+    },
+    "Wisp Stalks": {
+        "type": "Enchantment",
+        "rarity": "Very Rare",
+        "dc": 5,
+        "terrain": "Forest & Underdark",
+        "details": "**Enchantment:** User creates a *potion* of *invisibility* (DMG 188)."
+    },
+    "Wrackwort Bulbs": {
+        "type": "Enchantment",
+        "rarity": "Rare",
+        "dc": 4,
+        "terrain": "Coastal & Swamp",
+        "details": "**Enchantment:** User creates a *potion* of *diminution* (DMG 187)."
+    }
+}

@@ -22,7 +22,7 @@
         },
         "7": {
             "name": "Bloodgrass",
-            "rules": "reroll"
+            "rules": "prov_reroll"
         },
         "8": {
             "name": "Wyrmtongue Petals",
@@ -43,7 +43,7 @@
         "12": {
             "name": "Mandrake Root",
             "rules": ""
-        } 
+        }
     },
     "arctic": {
         "2": {
@@ -111,7 +111,7 @@
         "12":  {
             "name": "Cosmos Glond",
             "rules": "1-2x"
-        } 
+        }
     },
     "underwater": {
         "2": {
@@ -145,7 +145,7 @@
         "12":  {
             "name": "Cosmos Glond",
             "rules": "1-2x"
-        } 
+        }
     },
     "desert": {
         "2": {
@@ -179,7 +179,7 @@
         "12":  {
             "name": "Voidroot",
             "rules": "elem_water"
-        } 
+        }
     },
     "forest": {
         "2": {
@@ -213,7 +213,7 @@
         "12":  {
             "name": "Wisp Stalks",
             "rules": "night_2x"
-        } 
+        }
     },
     "grasslands": {
         "2": {
@@ -388,7 +388,7 @@
     "underdark": {
         "2": {
             "name": "Primordial Balm",
-            "rules": "2x"
+            "rules": "1-2x"
         },
         "3": {
             "name": "Silver Hibiscus",
@@ -420,7 +420,7 @@
         },
         "10": {
             "name": "Luminous Cap Dust",
-            "rules": ""
+            "rules": "2x"
         },
         "11": {
             "name": "Radiant Synthseed",
@@ -432,5 +432,3 @@
         }
     }
 }
-
-    
