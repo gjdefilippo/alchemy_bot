@@ -1,4 +1,8 @@
 {
+    "elemental_water": {
+        "name": "Elemental Water",
+        "rules": ""
+    },
     "common": {
         "2": {
             "name": "Mandrake Root",
@@ -119,8 +123,8 @@
             "rules": "1-2x"
         },
         "3": {
-            "name": "Amanita cap",
-            "rules": "reroll"
+            "name": "Reroll",
+            "rules": ""
         },
         "4": {
             "name": "Hyancinth Nectar",
@@ -135,8 +139,8 @@
             "rules": "reroll"
         },
         "10": {
-            "name": "Blue Toadshade",
-            "rules": "reroll"
+            "name": "Reroll",
+            "rules": ""
         },
         "11": {
             "name": "Wrackwort Bulbs",
@@ -181,7 +185,41 @@
             "rules": "elem_water"
         }
     },
-    "forest": {
+    "forest_day": {
+        "2": {
+            "name": "Harrada Leaf",
+            "rules": ""
+        },
+        "3": {
+            "name": "Nightshade Berries",
+            "rules": ""
+        },
+        "4": {
+            "name": "Emetic Wax",
+            "rules": ""
+        },
+        "5": {
+            "name": "Verdant Nettle",
+            "rules": ""
+        },
+        "9": {
+            "name": "Arrow Root",
+            "rules": ""
+        },
+        "10": {
+            "name": "Ironwood Heart",
+            "rules": ""
+        },
+        "11": {
+            "name": "Blue Toadshade",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Reroll",
+            "rules": ""
+        }
+    },
+    "forest_night": {
         "2": {
             "name": "Harrada Leaf",
             "rules": ""
@@ -212,7 +250,7 @@
         },
         "12":  {
             "name": "Wisp Stalks",
-            "rules": "night_2x"
+            "rules": "2x"
         }
     },
     "grasslands": {
@@ -305,7 +343,41 @@
             "rules": ""
         },
         "10": {
-            "name": "Luminous Cap dust",
+            "name": "Luminous Cap Dust",
+            "rules": ""
+        },
+        "11": {
+            "name": "Rock Vine",
+            "rules": ""
+        },
+        "12":  {
+            "name": "Primordial Balm",
+            "rules": ""
+        }
+    },
+    "mountains": {
+        "2": {
+            "name": "Basilisk's Breath",
+            "rules": ""
+        },
+        "3": {
+            "name": "Frozen Seedlings",
+            "rules": "2x"
+        },
+        "4": {
+            "name": "Arctic Creeper",
+            "rules": "2x"
+        },
+        "5": {
+            "name": "Dried Ephedra",
+            "rules": ""
+        },
+        "9": {
+            "name": "Drakus Flower",
+            "rules": ""
+        },
+        "10": {
+            "name": "Luminous Cap Dust",
             "rules": ""
         },
         "11": {
@@ -378,7 +450,41 @@
         },
         "11": {
             "name": "Hydrathistle",
-            "rules": "rain_2x"
+            "rules": ""
+        },
+        "12":  {
+            "name": "Primordial Balm",
+            "rules": ""
+        }
+    },
+    "rainy_swamp": {
+        "2": {
+            "name": "Devil's Bloodleaf",
+            "rules": ""
+        },
+        "3": {
+            "name": "Spineflower Berries",
+            "rules": ""
+        },
+        "4": {
+            "name": "Emetic Wax",
+            "rules": ""
+        },
+        "5": {
+            "name": "Amanita Cap",
+            "rules": "2x"
+        },
+        "9": {
+            "name": "Blue Toadshade",
+            "rules": "2x"
+        },
+        "10": {
+            "name": "Wrackwort Bulb",
+            "rules": ""
+        },
+        "11": {
+            "name": "Hydrathistle",
+            "rules": "2x"
         },
         "12":  {
             "name": "Primordial Balm",

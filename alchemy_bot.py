@@ -1,24 +1,28 @@
 import discord
-from config import *
+import json
+from parse_messages import parse_message
+
+try:
+    with open('data/bot_config.json', encoding="utf-8") as file:
+        config = json.load(file)
+except FileNotFoundError:
+    print("Data file not found")
 
 client = discord.Client()
 
 
-async def parse_message(message):
-    channel = message.channel
-
-
 @client.event
 async def on_ready():
-    channel = client.get_channel(deus_vult)
-    # await channel1.send('I, {}, have arrived'.format(client.user.name))
+    channel = client.get_channel(config['deus_vult'])
+    # await channel.send('I, {}, have arrived'.format(client.user.name))
 
 
 @client.event
 async def on_message(message):
     if message.author == client.user:
         return
-    return await parse_message(message)
+    channel = message.channel
+    await parse_message(message, channel)
 
 
-client.run(api_key)
+client.run(config['api_key'])

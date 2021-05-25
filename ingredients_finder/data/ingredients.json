@@ -76,12 +76,12 @@
         "terrain": "Most Terrain",
         "details": "**Potion Effect:** Heals for 2d4 + Alchemy Modifier."
     },
-    "Arctic Creeper": {
+    "Arctic Creeper":{
         "type": "Poison",
         "rarity": "Common",
         "dc": 2,
         "terrain": "Arctic & Mountain",
-        "details": "**Toxin Modifier:** Change poison damage to cold or necrotic damage; target is still *[poisoned]* for 1 minute on a failed CON saving throw; this toxin is still considered poison damage when combining with other ingredients."
+        "details": "**Toxin Modifier:** Change poison damage to cold or necrotic damage; target is still *[poisoned]* for 1 minute on a failed **CON** saving throw; this toxin is still considered poison damage when combining with other ingredients."
     },
     "Amanita Cap": {
         "type": "Poison",
@@ -174,35 +174,35 @@
         "terrain": "Coastal & Desert",
         "details": "**Enchantment:** User creates a *potion* of *clairvoyance* (DMG 187)."
     },
-    "Devil’s Bloodleaf": {
+    "Devil's Bloodleaf": {
         "type": "Enchantment",
         "rarity": "Very Rare",
         "dc": 5,
         "terrain": "Hills, Swamp & Underdark",
         "details": "**Enchantment:** User creates a *potion* of *vitality* (DMG 188)."
     },
-    "Elemental Water": {
+   "Elemental Water": {
         "type": "Enchantment",
         "rarity": "Rare",
         "dc": 3,
         "terrain": "Special",
         "details": "**Special (Enchantment):** This is required as the base catalyst for all **Enchantment** ingredients. See **Appendix B** for details."
     },
-    "Fiend’s Ivy": {
+    "Fiend's Ivy": {
         "type": "Enchantment",
         "rarity": "Rare",
         "dc": 4,
         "terrain": "Arctic & Underdark ",
         "details": "**Enchantment:** User creates a *potion* of *mind reading* (DMG 188)."
     },
-    "Hydrathistle": {
+    "Hyrdathistle": {
         "type": "Enchantment",
         "rarity": "Uncommon",
         "dc": 2,
         "terrain": "Coastal & Swamp",
         "details": "**Enchantment:** User creates a *potion* of *water breathing* (DMG 188)."
     },
-    "Ironwood Heart": {
+   "Ironwood Heart": {
         "type": "Enchantment",
         "rarity": "Uncommon",
         "dc": 3,
