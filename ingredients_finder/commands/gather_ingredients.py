@@ -1,7 +1,10 @@
 from d20 import roll
+
+import ingredients_finder.commands.make_embeds
+from data.commands import valid_terrains
 from data.errors import invalid_terrain
-from ingredients_finder.data.read_ingredients_data import ingredients_table, rules_table, terrains_table, \
-    common_ingredients
+from ingredients_finder.data.read_ingredients_data import *
+from ingredients_finder.commands.make_embeds import make_ingredient_embeds
 import random
 
 """ gather_ingredients.py """
@@ -29,7 +32,6 @@ def count_multiplier(ingredient):
 def make_ingredients_message(ingredients):
     ingredients_dict = {}  # ingredients list dictionary with counts
     num_ingredients = 0  # total number of ingredients found
-    message = ''
 
     # populates the ingredients dictionary with counts
     for ingredient in ingredients:
@@ -42,20 +44,10 @@ def make_ingredients_message(ingredients):
             ingredients_dict[name] = count
 
     # gets full info from ingredients json and makes message
-    message += '**You found ' + str(num_ingredients) + ' ingredients!**\n'
-    for ingredient in ingredients_dict:
-        ingredient_info = ingredients_table[ingredient]
-        name = ingredient
-        _type = ingredient_info['type']
-        rarity = ingredient_info['rarity']
-        dc = str(ingredient_info['dc'])
-        terrain = ingredient_info['terrain']
-        details = ingredient_info['details']
-        message += ('\n**' + name + ' x' + str(ingredients_dict[ingredient]) + '** ' +
-                    '\n**Type: ** ' + _type + '\n**Rarity: ** ' + rarity + '\n**Ingredient DC: ** +' + dc +
-                    '\n**Terrain: ** ' + terrain + '\n(Effect) ' + details + '\n\n')
+    ingredients_found_message = '**You found ' + str(num_ingredients) + ' ingredients!**\n'
+    embeds = make_ingredient_embeds(ingredients_dict)
 
-    return message
+    return ingredients_found_message, embeds
 
 
 # roll on the common table
@@ -73,7 +65,7 @@ def roll_common():
 def roll_ingredient(terrain):
     dice_roll = roll("2d6").total
     common_range = range(6, 9)  # dice roll range for the common ingredients table
-    elem_water_range = [2, 3, 4, 10, 11, 12]  # dice roll range for change of elemental water
+    elem_water_range = [2, 3, 4, 10, 11, 12]  # dice roll range for elemental water chance
 
     # roll common
     if dice_roll in common_range:
@@ -94,12 +86,10 @@ def roll_ingredient(terrain):
 # gather multiple ingredients
 def gather_ingredients(terrain):
 
-    # gets terrain from terrain table
-    try:
-        terrain_ecosystem = terrains_table[terrain]
-        print('Gathering ingredients in terrain: ' + terrain)
-    except KeyError:
+    if terrain not in valid_terrains:
         return invalid_terrain
+    terrain_ecosystem = terrains_table[terrain]
+    print('Gathering ingredients in terrain: ' + terrain)
 
     # ingredient array of dictionaries is returned
     ingredients = []

@@ -1,4 +1,4 @@
-data/bot_config.json
+data/bot_config.py
 *.xml
 *.pyc
 *.iml
