@@ -44,7 +44,10 @@ def make_ingredients_message(ingredients):
             ingredients_dict[name] = count
 
     # gets full info from ingredients json and makes message
-    ingredients_found_message = '**You found ' + str(num_ingredients) + ' ingredients!**\n'
+    if num_ingredients > 1:
+        ingredients_found_message = '**You found ' + str(num_ingredients) + ' ingredients!**\n'
+    else:
+        ingredients_found_message = '**You found ' + str(num_ingredients) + ' ingredient!**\n'
     embeds = make_ingredient_embeds(ingredients_dict)
 
     return ingredients_found_message, embeds

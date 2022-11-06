@@ -7,8 +7,6 @@ client = discord.Client()
 
 @client.event
 async def on_ready():
-    #channel = client.get_channel(852723675098120192)
-    #await channel.send('Who is this dude')
     return
 
 
